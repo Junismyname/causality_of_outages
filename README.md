@@ -54,11 +54,11 @@ The columns we used to extract data are the following:\
 `OUTAGE.DURATION`: Contains quantitative continuous data. Represents the duration of outage events in minutes.\
 \
 `CLIMATE.REGION`: Contains qualitative nominal data. Represents U.S. Climate regions as specified by National Centers for Environmental Information.\
-To use this data in our model, we changed it to numerical data using One Hot Encoding.\
+To use this data in our model, we changed it to numerical data using One Hot Encoding.
 
 **Baseline Model**
 \
-Using all the data from introduced columns, we created pipeline to run One Hot Encoding for `CLIMATE.REGION` and predict `CAUSE.CATEGORY`.\
+Using all the data from introduced columns, we created pipeline to run One Hot Encoding for `CLIMATE.REGION` and predict `CAUSE.CATEGORY`.
 
 **Prediction**
 \
@@ -69,7 +69,7 @@ Our current model does extremely bad job at predicting the cause of power outage
 \
 \
 ## Final Model
-\
+
 ## Fairness Analysis
 
 
